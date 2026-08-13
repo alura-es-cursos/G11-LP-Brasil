@@ -8,6 +8,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url))
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/G11-LP-Brasil/',
   plugins: [
     react(),
     tailwindcss(),
