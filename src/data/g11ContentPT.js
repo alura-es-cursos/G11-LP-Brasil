@@ -71,7 +71,7 @@ export const formationsPT = [
     "recommendation": "Trilha de entrada para fundamentar conceitos de IA, uso do Canvas AI e produtividade com assistentes.",
     "color": "from-slate-50 to-slate-100",
     "category": "Gerais",
-    "link": "https://app.alura.com.br/formacoes"
+    "link": "https://cursos.alura.com.br/app/learning-guide/alura/mindset-e-estrategia-g11-one"
   },
   {
     "id": "g2_dados",
@@ -147,7 +147,7 @@ export const formationsPT = [
     "recommendation": "Essencial para transformar dados em decisões executivas e liderar a transformação digital com IA.",
     "color": "from-blue-50 to-indigo-100",
     "category": "Gerais",
-    "link": "https://app.alura.com.br/formacoes"
+    "link": "https://cursos.alura.com.br/app/learning-guide/alura/dados-para-negocios-g11-one"
   },
   {
     "id": "g3_governanca",
@@ -207,7 +207,7 @@ export const formationsPT = [
     "recommendation": "Crucial para estruturar a governança de IA e garantir a conformidade normativa na organização.",
     "color": "from-purple-50 to-slate-100",
     "category": "Gerais",
-    "link": "https://app.alura.com.br/formacoes"
+    "link": "https://cursos.alura.com.br/app/learning-guide/alura/governanca-risco-e-etica-g11-one"
   },
   {
     "id": "t1_vendas",
@@ -284,7 +284,7 @@ export const formationsPT = [
     "recommendation": "Recomendada para acelerar o pipeline comercial e automatizar tarefas repetitivas em vendas.",
     "color": "from-emerald-50 to-teal-100",
     "category": "Eletivas",
-    "link": "https://app.alura.com.br/formacoes"
+    "link": "https://cursos.alura.com.br/app/learning-guide/alura/ia-para-vendas-e-comercial-g11-one"
   },
   {
     "id": "t2_marketing",
@@ -359,7 +359,7 @@ export const formationsPT = [
     "recommendation": "Ideal para maximizar a velocidade e a qualidade de produção de conteúdo com assistentes inteligentes.",
     "color": "from-pink-50 to-rose-100",
     "category": "Eletivas",
-    "link": "https://app.alura.com.br/formacoes"
+    "link": "https://cursos.alura.com.br/app/learning-guide/alura/ia-para-marketing-e-conteudo-g11-one"
   },
   {
     "id": "t3_rh",
@@ -436,7 +436,7 @@ export const formationsPT = [
     "recommendation": "Perfeita para modernizar a gestão de talentos com automações e análises preditivas.",
     "color": "from-amber-50 to-orange-100",
     "category": "Eletivas",
-    "link": "https://app.alura.com.br/formacoes"
+    "link": "https://cursos.alura.com.br/app/learning-guide/alura/ia-para-rh-g11-one"
   },
   {
     "id": "t4_financas",
@@ -529,7 +529,7 @@ export const formationsPT = [
     "recommendation": "Recomendada para eliminar processos manuais em planilhas e acelerar análises operacionais.",
     "color": "from-cyan-50 to-sky-100",
     "category": "Eletivas",
-    "link": "https://app.alura.com.br/formacoes"
+    "link": "https://cursos.alura.com.br/app/learning-guide/alura/ia-para-financas-e-operacoes-g11-one"
   }
 ];
 
