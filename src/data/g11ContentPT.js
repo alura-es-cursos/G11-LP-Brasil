@@ -298,10 +298,10 @@ export const formationsPT = [
       "Marketing",
       "Redes Sociais",
       "Criadores",
-      "Gems / GPTs"
+      "Gems / Canva"
     ],
-    "bestFor": "Profissionais de marketing que buscam escalar a produção de conteúdo multicanal e construir agentes GPT personalizados.",
-    "summary": "Escala e consistência na produção de conteúdo e na gestão de mídias sociais com IA. Esta trilha eletiva aborda a criação de assistentes personalizados no Gemini (Gems) para produção multicanal de conteúdo, geração de imagens com NanoBanana 2, planejamento estratégico e criação de linhas editoriais para redes sociais, e a construção de agentes GPT customizados para atendimento e comunicação da marca.",
+    "bestFor": "Profissionais de marketing que buscam escalar a produção de conteúdo multicanal e criar campanhas e apresentações de impacto com o Canva.",
+    "summary": "Escala e consistência na produção de conteúdo e na gestão de mídias sociais com IA. Esta trilha eletiva aborda a criação de assistentes personalizados no Gemini (Gems) para produção multicanal de conteúdo, geração de imagens com NanoBanana 2, planejamento estratégico e criação de linhas editoriais para redes sociais, e o uso do Canva com IA para criar campanhas de marketing e apresentações alinhadas à identidade da marca, com kits de marca e automação de design em lote.",
     "courses": [
       {
         "title": "Produção de conteúdo com IA: Crie assistentes no Gemini para escalar sua comunicação multicanal",
@@ -340,19 +340,18 @@ export const formationsPT = [
         ]
       },
       {
-        "title": "Mídias Sociais: Construindo um agente GPT para seu negócio",
+        "title": "Canva: Ferramentas para campanha de marketing e apresentações",
         "hours": 8,
-        "url": "https://cursos.alura.com.br/course/midias-sociais-construindo-agente-gpt-seu-negocio",
-        "tool": "ChatGPT (Custom GPTs)",
+        "url": "https://cursos.alura.com.br/course/canva-ferramentas-campanha-marketing-apresentacoes",
+        "tool": "Canva",
         "tags": [
-          "ChatGPT (Custom GPTs)"
+          "Canva"
         ],
         "content": [
-          "Desenvolva um agente de IA no ChatGPT",
-          "Configure e personalize o agente de IA, criando instruções, configurando prompts e ajustando tags",
-          "Crie prompts específicos para estruturar bases de conhecimento adequadas para alimentar o agente de IA, garantindo maior relevância nas respostas",
-          "Estruture e otimize bases de conhecimento, utilizando técnicas de organização de dados e avaliação contínua para aprimorar a precisão do agente",
-          "Integre APIs externas para aumentar as funcionalidades de agentes"
+          "Explore a personalização de kits de marca e elementos de design no Canva",
+          "Automatize processos de design com a ferramenta 'Criar em Lote'",
+          "Desenvolva apresentações com slides dinâmicos, animações e gráficos personalizados",
+          "Integre inteligência artificial para ajustar textos e gerar insights colaborativos"
         ]
       }
     ],
@@ -554,7 +553,7 @@ export const pathsPT = [
     intensity: 'Moderado',
     duration: '8 semanas',
     steps: ['G1 - Mindset e Estratégia', 'T1 - IA para Vendas e Comercial', 'T2 - IA para Marketing e Conteúdo', 'Challenge Individual'],
-    note: 'Uma sequência focada na criação de conteúdos multicanal, agentes GPT personalizados, automação de e-mail marketing e integração de IA ao CRM.'
+    note: 'Uma sequência focada na criação de conteúdos multicanal, campanhas e apresentações no Canva, automação de e-mail marketing e integração de IA ao CRM.'
   },
   {
     id: 'rh_operacoes',
