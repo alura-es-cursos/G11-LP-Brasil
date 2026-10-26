@@ -8,7 +8,8 @@ O site apresenta:
 
 - **Orientação por perfil**: 4 trilhas sugeridas conforme o interesse do estudante (liderança/estratégia, vendas & marketing, RH, finanças & operações).
 - **Catálogo de formações**: 7 formações (G1-G3 gerais, T1-T4 eletivas) com seus cursos, carga horária, ferramentas utilizadas e links diretos para a Alura.
-- **Challenge individual**: seção com o conteúdo obrigatório do programa (a preencher).
+- **Challenge individual**: acesso às orientações de entrega do conteúdo obrigatório do programa.
+- **Certificação**: curso OCI AI: Foundations Associate, com 14 horas e acesso direto à Alura.
 - Suporte a tema claro/escuro.
 
 ## Stack

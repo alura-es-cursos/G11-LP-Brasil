@@ -38,7 +38,7 @@ export const formationsPT = [
       {
         "title": "Entenda como aplicar o Canvas AI NA PRÁTICA",
         "hours": 1,
-        "url": "https://www.youtube.com/watch?v=EBiAN7vdbUw",
+        "url": "https://youtu.be/EnTFA5iBv1M",
         "tool": "AI Canvas (StartSe)",
         "tags": [
           "AI Canvas (StartSe)"
@@ -325,7 +325,7 @@ export const formationsPT = [
       {
         "title": "Inteligência Artificial: Gestão de mídias sociais",
         "hours": 8,
-        "url": "https://cursos.alura.com.br/course/inteligencia-artificial-gestao-midias-sociais",
+        "url": "https://cursos.alura.com.br/course/inteligencia-artificial-gestao-midias-sociais-2",
         "tool": "ChatGPT",
         "tags": [
           "ChatGPT"
@@ -380,7 +380,7 @@ export const formationsPT = [
       {
         "title": "RH estratégico: Otimizando processos com IA",
         "hours": 12,
-        "url": "https://cursos.alura.com.br/course/rh-estrategico-otimizando-processos-ia",
+        "url": "https://cursos.alura.com.br/course/rh-estrategico-otimizando-processos-com-ia-2",
         "tool": "ChatGPT + Tools No-code/Low-code (chatbots)",
         "tags": [
           "ChatGPT",

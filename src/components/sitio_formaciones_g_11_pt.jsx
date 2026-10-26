@@ -145,11 +145,11 @@ export default function FormacionesG11SitePT() {
                     <p className={`mt-1 text-3xl font-extrabold ${isDark ? 'text-indigo-400' : 'text-indigo-600'}`}>7</p>
                   </div>
                   <div className={`rounded-xl p-4 border ${isDark ? 'bg-slate-950/70 border-slate-800/80' : 'bg-slate-50 border-slate-200'}`}>
-                    <span className={`text-xs font-medium ${isDark ? 'text-slate-400' : 'text-slate-500'}`}>Cursos sugeridos</span>
+                    <span className={`text-xs font-medium ${isDark ? 'text-slate-400' : 'text-slate-500'}`}>Cursos nas formações</span>
                     <p className={`mt-1 text-3xl font-extrabold ${isDark ? 'text-white' : 'text-slate-900'}`}>21</p>
                   </div>
                   <div className={`rounded-xl p-4 border ${isDark ? 'bg-slate-950/70 border-slate-800/80' : 'bg-slate-50 border-slate-200'}`}>
-                    <span className={`text-xs font-medium ${isDark ? 'text-slate-400' : 'text-slate-500'}`}>Carga total</span>
+                    <span className={`text-xs font-medium ${isDark ? 'text-slate-400' : 'text-slate-500'}`}>Carga das formações</span>
                     <p className={`mt-1 text-3xl font-extrabold ${isDark ? 'text-white' : 'text-slate-900'}`}>{programHours}h</p>
                   </div>
                   <div className={`rounded-xl p-4 border ${isDark ? 'bg-slate-950/70 border-slate-800/80' : 'bg-slate-50 border-slate-200'}`}>
@@ -290,27 +290,36 @@ export default function FormacionesG11SitePT() {
                     Challenge individual
                   </h3>
                   <p className="mt-3 text-xs sm:text-sm text-slate-300 leading-relaxed">
-                    Este será o projeto que cada estudante deverá criar individualmente. As formações funcionam como apoio para chegar com mais clareza, prática e confiança.
+                    Este é o projeto que cada estudante deverá criar individualmente. As formações funcionam como apoio para chegar com mais clareza, prática e confiança.
                   </p>
                 </div>
               </div>
 
-              {/* Right reserved space placeholder */}
+              {/* Challenge access */}
               <div className={`md:col-span-7 p-6 sm:p-8 flex items-center justify-center ${
                 isDark ? 'bg-slate-900/40' : 'bg-slate-50'
               }`}>
-                <div className={`w-full rounded-xl border-2 border-dashed p-8 text-center ${
+                <div className={`w-full rounded-xl border p-8 text-center ${
                   isDark ? 'border-slate-700 bg-slate-950/30' : 'border-slate-300 bg-white'
                 }`}>
                   <span className={`text-xs font-bold tracking-widest uppercase ${isDark ? 'text-slate-500' : 'text-slate-400'}`}>
-                    ESPAÇO RESERVADO
+                    CHALLENGE DISPONÍVEL
                   </span>
                   <h4 className={`mt-2 text-lg font-bold ${isDark ? 'text-slate-200' : 'text-slate-800'}`}>
-                    Aqui será inserida a informação do challenge
+                    Acesse a entrega do challenge
                   </h4>
                   <p className={`mt-2 text-xs max-w-md mx-auto ${isDark ? 'text-slate-400' : 'text-slate-500'}`}>
-                    Adicione mais adiante o objetivo do projeto, critérios de entrega, datas, tecnologias sugeridas, rubrica de avaliação e exemplos de entregáveis.
+                    Consulte as orientações de entrega do challenge individual na plataforma Alura.
                   </p>
+                  <a
+                    href="https://cursos.alura.com.br/course/entrega-do-challenge-taranis-black"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="mt-6 inline-flex items-center gap-2 rounded-lg bg-indigo-600 px-5 py-3 text-sm font-semibold text-white transition-colors hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
+                  >
+                    Acessar challenge
+                    <ExternalLink className="h-4 w-4" aria-hidden="true" />
+                  </a>
                 </div>
               </div>
             </div>
@@ -554,6 +563,37 @@ export default function FormacionesG11SitePT() {
                 </div>
               );
             })}
+          </div>
+        </div>
+      </section>
+
+      {/* Section: Certification */}
+      <section id="certificacao" aria-labelledby="certificacao-title" className="py-12 sm:py-16">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div className={`rounded-2xl border p-6 sm:p-8 ${isDark ? 'border-slate-800 bg-slate-900' : 'border-slate-200 bg-white'}`}>
+            <div className="flex items-center gap-3">
+              <Award className={`h-6 w-6 ${isDark ? 'text-indigo-400' : 'text-indigo-600'}`} aria-hidden="true" />
+              <span className={`text-xs font-bold uppercase tracking-widest ${isDark ? 'text-indigo-400' : 'text-indigo-600'}`}>Certificação</span>
+            </div>
+            <h2 id="certificacao-title" className={`mt-4 text-2xl font-extrabold ${isDark ? 'text-white' : 'text-slate-900'}`}>
+              OCI AI: Foundations Associate
+            </h2>
+            <p className={`mt-3 max-w-3xl text-sm leading-relaxed ${isDark ? 'text-slate-300' : 'text-slate-600'}`}>
+              Aprofunde seus conhecimentos em inteligência artificial, machine learning, deep learning e IA generativa. Conheça os modelos e serviços de IA da Oracle Cloud Infrastructure e sua aplicação em soluções corporativas.
+            </p>
+            <p className={`mt-4 flex items-center gap-2 text-sm font-semibold ${isDark ? 'text-slate-200' : 'text-slate-700'}`}>
+              <Clock className="h-4 w-4" aria-hidden="true" />
+              14h de carga horária
+            </p>
+            <a
+              href="https://cursos.alura.com.br/course/oci-ai-foundations"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-6 inline-flex items-center gap-2 rounded-lg bg-indigo-600 px-5 py-3 text-sm font-semibold text-white transition-colors hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
+            >
+              Acessar curso OCI AI
+              <ExternalLink className="h-4 w-4" aria-hidden="true" />
+            </a>
           </div>
         </div>
       </section>
